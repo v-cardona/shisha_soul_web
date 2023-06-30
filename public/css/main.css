@@ -11500,3 +11500,26 @@ img.logo {
     height: 3rem;
     border-radius: 1em;
 }
+
+
+/* legal pages, such as privacy policy or terms of use*/
+
+.legal blockquote {
+    font-style: italic;
+}
+
+.legal section {
+    padding-bottom: 0;
+}
+
+.legal ol {
+    list-style-type: decimal;
+}
+
+.legal ul {
+    list-style-type: disc;
+}
+
+.legal ul ul {
+    list-style-type: circle;
+}
