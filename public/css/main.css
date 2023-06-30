@@ -11523,3 +11523,66 @@ img.logo {
 .legal ul ul {
     list-style-type: circle;
 }
+
+
+/**
+TODO: remove, is only for background coming soon
+*/
+
+.coming-soon-background {
+    /* The image used */
+    background-image: url("../assets/img/grafico-funciones-boceto.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.caption-constr {
+    position: absolute;
+    left: 7%;
+    top: 20%;
+    width: 30%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.caption-text {
+    position: absolute;
+    right: 7%;
+    top: 20%;
+    width: 20%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.caption-constr-mobile {
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+    .coming-soon-background {
+        height: 50%;
+    }
+    .caption-constr {
+        visibility: hidden;
+    }
+    .caption-text {
+        visibility: hidden;
+    }
+}
+
+
+/*
+remove until here the comming sson*/
